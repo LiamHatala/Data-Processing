@@ -7,7 +7,7 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 
 
 # Add the folder path for where all of the channel .cvs files are
-folder_path = r"C:\Users\lhatala\OneDrive - Suncor Energy Inc\Documents\Series A IO List\SERP IO\SERP_CTRLs\C300_FGD_711_PRI"
+folder_path = r"Folder_Path"
 output_file = os.path.join(folder_path, "CombinedTagNames.xlsx")
 
 # Find all CSV files in your folder
